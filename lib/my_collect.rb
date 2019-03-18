@@ -7,7 +7,7 @@ end
 collection 
 end 
 
-my_collection(collection) do |lang|
+my_collection(['ruby', 'javascript', 'python', 'objective-c']) do |lang|
   lang.upcase
 end
 
