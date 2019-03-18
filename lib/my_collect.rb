@@ -11,8 +11,5 @@ my_collect(['ruby', 'javascript', 'python', 'objective-c']) do |lang|
   lang.upcase
 end
 
-my_collect("Tim Jones", "Tom Smith", "Jim Campagno") do |name|
-  name.split(" ").first 
-end 
 
 
