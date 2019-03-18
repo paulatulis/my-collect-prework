@@ -11,7 +11,7 @@ my_collection(['ruby', 'javascript', 'python', 'objective-c']) do |lang|
   lang.upcase
 end
 
-my_collection(collection) do |name|
+my_collection("Tim Jones", "Tom Smith", "Jim Campagno") do |name|
   name.split(" ").first 
 end 
 
