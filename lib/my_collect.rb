@@ -7,5 +7,12 @@ end
 collection 
 end 
 
+my_collection(collection) do |lang|
+  lang.upcase
+end
+
+my_collection(collection) do |name|
+  name.split(" ").first 
+end 
 
 
